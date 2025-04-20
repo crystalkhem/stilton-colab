@@ -2,102 +2,101 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div>
+    <div className="relative flex items-end bg-blue-300 h-screen bg-cover  bg-center bg-[url(https://images.pexels.com/photos/4321206/pexels-photo-4321206.jpeg)]">
+    <div className="absolute inset-0 bg-black/20"> </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+    <div className="flex flex-col pl-15 pb-15 font-bold text-white z-10">
+      <div className="text-9xl">stilton</div> 
+      <div className="text-8xl">by the sea</div>
     </div>
+
+</div>
+
+    <div className="flex-col p-10 xl:px-40 gap-5 justify-center flex lg:flex-row bg-neutral-100 flex items-center justify-center ">
+      
+
+      <img src='https://images.pexels.com/photos/5006536/pexels-photo-5006536.jpeg' 
+      className="lg:my-25 shadow-xl object-cover shadow-xl md:max-w-[400] "></img>
+   
+    <div className="w-3/4">
+    <h2 className="text-7xl font-bold px-7  ">about </h2>
+    <div className="text-xl font-bold pb-3 lg:pb-5 pl-10">our story. </div>
+
+
+      <h2 className="text-xl md:px-7 lg:px-20 pb-10">Welcome to <span className="bg-orange-300 px-1">Stilton by the Sea</span>, where good waves, salty air, and laid-back vibes are always on the itinerary. Tucked just a short walk from the shoreline, our surf hostel is a cozy haven for wave-chasers, wanderers, and ocean-lovers from around the globe.
+
+We believe in shared meals, sunrise sessions, and stories swapped over sandy bonfires. Whether you're here to catch your first wave or just need a breezy spot to unwind, Stilton’s got you covered. Expect warm beds, surfboard racks, local tips, and the kind of community that turns strangers into surf buddies.
+
+Come for the waves. Stay for the vibe. </h2>
+
+
+</div>
+   
+    </div>
+
+
+
+
+    <div className="relative bg-[url(https://images.pexels.com/photos/4321072/pexels-photo-4321072.jpeg)]
+    backdrop-blur-xl bg-cover flex flex-col items-center">
+    <div className="absolute inset-0 bg-black/20 backdrop-blur-xs"></div>
+
+    <h2 className="text-7xl z-10 font-bold px-7 pt-10 ">services </h2>
+    <div className="text-xl z-10 font-bold pb-3 lg:pb-5 pl-10">come join us! </div>
+
+    
+<div className="z-10 md:grid md:grid-cols-3 text-4xl pb-20 gap-5 text-white italic font-bold p-10">
+
+    <div className="cards bg-[url(https://images.pexels.com/photos/1753689/pexels-photo-1753689.jpeg)]">
+    <div className="hover:text-5xl">rentals</div>
+    </div>
+
+    <div className="cards  bg-[url(https://images.pexels.com/photos/5599599/pexels-photo-5599599.jpeg)]">
+    <div className="">booking</div>
+    </div>
+
+    <div className="cards bg-[url(https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg)]">
+    <div className="">tours</div>
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+    <div className="flex-col p-10 xl:px-40 gap-5 justify-center flex lg:flex-row bg-neutral-100 flex items-center justify-center ">
+      
+
+      <img src='https://images.pexels.com/photos/5006536/pexels-photo-5006536.jpeg' 
+      className="lg:my-25 shadow-xl object-cover shadow-xl md:max-w-[400] "></img>
+   
+    <div className="w-3/4">
+    <h2 className="text-7xl font-bold px-7  ">about </h2>
+    <div className="text-xl font-bold pb-3 lg:pb-5 pl-10">our story. </div>
+
+
+      <h2 className="text-xl md:px-7 lg:px-20 pb-10">Welcome to <span className="bg-orange-300 px-1">Stilton by the Sea</span>, where good waves, salty air, and laid-back vibes are always on the itinerary. Tucked just a short walk from the shoreline, our surf hostel is a cozy haven for wave-chasers, wanderers, and ocean-lovers from around the globe.
+
+We believe in shared meals, sunrise sessions, and stories swapped over sandy bonfires. Whether you're here to catch your first wave or just need a breezy spot to unwind, Stilton’s got you covered. Expect warm beds, surfboard racks, local tips, and the kind of community that turns strangers into surf buddies.
+
+Come for the waves. Stay for the vibe. </h2>
+
+
+</div>
+   
+    </div>
+
+
+
+</div>
   );
 }
+
+
+// flip surfer
+// font
